@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">olmecApp</string>
+    <string name="olmecapp">olmecApp</string>
+    <string name="bienvenido_a_tres_zapotes">Bienvenido a Tres zapotes</string>
+    <string name="inicio">Inicio</string>
+    <string name="tres_zapotes_es_un_asentamiento_prehispanico_que_se_extiende_por_m_s_de_3_kil_metros_a_lo_largo_del_arroyo_hueyapan_y_es_conocido_principalmente_por_la_apreciable_cantidad_de_esculturas_de_estilo_olmeca_e_izapa_encontradas_en_l">Tres Zapotes es un asentamiento prehispánico que se extiende por más de 3 kilómetros a lo largo del Arroyo Hueyapan y es conocido principalmente por la apreciable cantidad de esculturas de estilo Olmeca e Izapa encontradas en él.Te invitamos a conocer esta tierra milenaria</string>
+
+</resources>

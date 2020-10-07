@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@color/color_back"
+    tools:context=".Inicio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_marginTop="0dp"
+            android:id="@+id/viewPagerImageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:paddingStart="80dp"
+            android:paddingEnd="80dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:text="@string/tres_zapotes_es_un_asentamiento_prehispanico_que_se_extiende_por_m_s_de_3_kil_metros_a_lo_largo_del_arroyo_hueyapan_y_es_conocido_principalmente_por_la_apreciable_cantidad_de_esculturas_de_estilo_olmeca_e_izapa_encontradas_en_l"
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/btn_brujula"
+            android:onClick="ClickBrujula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="¿Cómo llegar?"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/brujula"/>
+
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF">
+
+        <include
+            layout="@layout/nav_nav_drawer"/>
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
