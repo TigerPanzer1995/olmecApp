@@ -38,6 +38,9 @@ public class Inicio extends AppCompatActivity {
         sliderItems.add(new SliderItem(R.drawable.vasijas));
         sliderItems.add(new SliderItem(R.drawable.loma));
         sliderItems.add(new SliderItem(R.drawable.laguna));
+        sliderItems.add(new SliderItem(R.drawable.resta));
+        sliderItems.add(new SliderItem(R.drawable.hotel));
+
 
         viewPager2.setAdapter(new SliderAdapter(sliderItems,viewPager2));
         viewPager2.setClipToPadding(false);

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    android:background="@color/color_back"
+    android:background="#a68fc0"
     tools:context=".Loma">
 
     <LinearLayout
@@ -14,12 +14,60 @@
         android:orientation="vertical">
         <include
             layout="@layout/main_toolbar"/>
-        <TextView
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Loma"
-            android:textSize="50dp"
-            android:gravity="center"/>
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Loma Camila"
+                    android:textSize="35sp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/loma4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:text="@string/de_acuerdo_a_la_investigaci_n_arqueol_gica_se_supone_que_tres_zapotes_alcanz_importancia_como_centro_ceremonial_entre_el_500_y_1000_a_c_debido_a_los_mont_culos_de_tierra_agrupados_en_patrones_regulares_agrupados_en_tres_conjuntos_sin_seguir_un_plan_geom_trico_preciso_nla_loma_camila_est_considerada_como_uno_de_los_mont_culos_m_s_importantes_de_la_zona_nuclear_olmeca_fen_meno_c_smico_el_d_a_11_de_enero_de_1992_a_las_11_11_de_la_ma_ana_hubo_un_fen_meno_solar_en_la_loma_camila_denominado_como_fen_meno_c_smico_lo_que_sucedi_ese_d_a_seguramente_ser_dif_cil_de_borrar_de_la_memoria_de_muchos_ya_que_fue_una_de_las_manifestaciones_de_energ_a_m_s_importante_dentro_de_las_culturas_del_mundo_y_la_ubicaci_n_ancestral_coincide_con_los_diferentes_templos_de_nuestro_m_xico_y_sur_am_rica_debemos_de_difundir_la_maravillosidad_e_importancia_que_tiene_este_templo_sagrado_orgullo_y_patrimonio_de_los_tres_zapotecos_el_cual_quiz_s_no_tengamos_la_dicha_de_volverlo_a_ver_pues_se_dice_que_tal_fen_meno_se_manifiesta_cada_100_a_os_festividades_el_primer_viernes_de_marzo_olmeca_es_motivo_de_festividad_en_la_loma_camila_ritual_triangular_danza_de_chaneques_espacio_c_smico_lluvia_de_estrellas_cultura_y_raza_madre_de_todos_los_tiempos_su_mont_culo_principal_loma_camila_tiene_una_altura_de_12_metros_en_el_lado_norte_de_la_plaza_est_la_loma_larga_con_7_metros_de_altura_y_130_metros_de_largo_en_este_sitio_se_localiz_la_estela_a_la_mayor_de_las_estelas_olmecas"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Galeria de imágenes"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/loma3"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/loma4"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/loma"/>
+
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
     <RelativeLayout

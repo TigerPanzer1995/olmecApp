@@ -5,22 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    android:background="@color/color_back"
+    android:background="#a68fc0"
     tools:context=".Museo">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <include
             layout="@layout/main_toolbar"/>
         <TextView
+            android:textAlignment="center"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Museo"
-            android:textSize="50dp"
-            android:gravity="center"/>
+            android:layout_height="wrap_content"
+            android:text="MUSEO"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/acceso_museo"
+            android:contentDescription="TODO" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnFloatMuseo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="300dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_galleries" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="@string/el_acervo_est_constituido_por_piezas_como_la_cabeza_colosal_de_hueyapan_o_monumento_a_la_estela_c_una_l_pida_de_basalto_encontrada_a_tres_kil_metros_al_noreste_del_pueblo_labrada_por_ambas_caras_en_una_se_puede_ver_la_fecha_m_s_antigua_en_sistema_calendario_llamada_cuenta_larga_y_en_la_otra_un_rostro_humano_felino_con_un_ornamentado_tocado_otras_piezas_destacadas_son_la_estela_d_que_representa_una_escena_integrada_por_cuatro_personajes_que_emergen_de_las_fauces_abiertas_de_un_jaguar_un_petroglifo_que_representa_del_lado_izquierdo_un_sapo_y_del_derecho_un_cr_neo_descarnado_la_estela_a_una_de_las_m_s_grandes_conocidas_hasta_la_fecha_que_fue_esculpida_en_una_piedra_diferente_al_resto_de_los_monumentos_en_un_conglomerado_de_origen_volc_nico_conocido_como_brecha_en_ella_se_puede_observar_una_escena_en_la_que_participan_tres_individuos_la_exposici_n_la_complementan_algunas_cer_micas_del_cl_sico_figurillas_de_arcilla_fechadas_en_el_precl_sico_superior_400_a_c_al_100_d_c_as_como_collares_de_piedra_verde_hachas_de_jadeita_metate_con_olla_y_granos_de_ma_z_entre_otros_vestigios_adem_s_se_exponen_tres_entierros_humanos_que_fueron_descubiertos_en_los_a_os_90_por_el_arque_logo_christopher_poll_de_la_universidad_de_kentucky_de_los_cuales_dos_fueron_de_ni_os_y_el_otro_de_adulto"
+                android:gravity="center_horizontal" />
+
+        </ScrollView>
     </LinearLayout>
+
+
+    
+   
 
     <RelativeLayout
         android:layout_width="300dp"

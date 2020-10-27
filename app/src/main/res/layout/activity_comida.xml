@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    android:background="@color/color_back"
+    android:background="#a68fc0"
     tools:context=".Comida">
 
     <LinearLayout
@@ -14,12 +14,7 @@
         android:orientation="vertical">
         <include
             layout="@layout/main_toolbar"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Comida"
-            android:textSize="50dp"
-            android:gravity="center"/>
+
     </LinearLayout>
 
     <RelativeLayout
