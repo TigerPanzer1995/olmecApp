@@ -55,6 +55,10 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
+                    android:src="@drawable/fenomeno_cosmico"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
                     android:src="@drawable/loma3"/>
                 <ImageView
                     android:layout_width="match_parent"

@@ -14,6 +14,75 @@
         android:orientation="vertical">
         <include
             layout="@layout/main_toolbar"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Restaurant Doña Chole"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:src="@drawable/res1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/ubicado_sobre_la_calle_5_de_febrero_cuenta_con_25_a_os_de_experiencia_en_el_mundo_de_la_cocina_por_sus_ricos_guisados_antojitos_y_dem_s_ndespu_s_de_un_d_a_de_recorridos_y_vivir_una_experiencia_nica_dejarse_consentir_con_una_exquisita_comida_har_n_de_tu_visita_algo_inolvidable"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Menú"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="30sp"
+                    android:textColor="#008f39"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/menur"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Para consentirte"
+                    android:textColor="#008f39"
+                    android:textSize="30sp"/>
+               <ImageView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:src="@drawable/memela_pollo"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/tostadas"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/memela_asada"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/empanadas"/>
+
+
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 

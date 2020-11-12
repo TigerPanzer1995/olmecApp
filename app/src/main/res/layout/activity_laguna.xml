@@ -16,10 +16,34 @@
             layout="@layout/main_toolbar"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Laguna"
-            android:textSize="50dp"
+            android:layout_height="wrap_content"
+            android:text="Laguna El Apompal"
+            android:textSize="30sp"
+            android:textColor="#000000"
             android:gravity="center"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/laguna2_2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:text="“Laguna el Apompal” se llama así debido al haber en ella mucho apompo, cuenta con 16 hectáreas a la redonda, de acuerdo a las investigaciones cuando se fundo el ejido ya existía la laguna, es famosa por sus historias de muertes extrañas, pesca y aves. De acuerdo a habitantes de octubre a febrero se convierte en un gran santuario que alberga distintas especies de aves."
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/btn_apompo"
+            android:background="#00ffd6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="@string/conocer_m_s_sobre_el_apompo"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
     <RelativeLayout
