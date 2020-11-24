@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Laguna extends AppCompatActivity implements View.OnClickListener {
     DrawerLayout drawerLayout;
@@ -48,6 +49,12 @@ public class Laguna extends AppCompatActivity implements View.OnClickListener {
     }
     public void ClickSalir(View view){
         Inicio.logout(this);
+    }
+    public void ClickPanoramico(View view){
+        Intent intent = new Intent(this,VistaPanoramica.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        Toast.makeText(this, "Mueve tu teléfono hacia los lados para ver foto panorámica", Toast.LENGTH_SHORT).show();
     }
 
     @Override

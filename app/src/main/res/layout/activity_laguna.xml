@@ -29,10 +29,11 @@
                     android:textColor="#000000"
                     android:gravity="center"/>
                 <ImageView
+                    android:onClick="ClickPanoramico"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
-                    android:src="@drawable/laguna2_2"/>
+                    android:src="@drawable/apompo23"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

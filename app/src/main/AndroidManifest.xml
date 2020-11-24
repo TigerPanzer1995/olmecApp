@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GaleriaMuseo"></activity>
+        <activity android:name=".VistaPanoramica"></activity>
+        <activity android:name=".GaleriaMuseo" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

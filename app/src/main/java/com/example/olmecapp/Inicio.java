@@ -15,6 +15,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -105,7 +106,7 @@ public class Inicio extends AppCompatActivity {
         redirectActivity(this,Loma.class);
     }
     public void ClickLaguna(View view){
-        redirectActivity(this,Laguna.class);
+        redireccionApompal(this, Laguna.class);
     }
     public void ClickComida(View view){
         redirectActivity(this,Comida.class);
@@ -143,6 +144,12 @@ public class Inicio extends AppCompatActivity {
         });
         builder.show();
 
+    }
+    public static void redireccionApompal (Activity activity, Class aClass){
+        Intent intent = new Intent(activity,aClass);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        activity.startActivity(intent);
+        Toast.makeText(activity, "Da click sobre la imágen para vista panoramica", Toast.LENGTH_LONG).show();
     }
 
     public static void redirectActivity(Activity activity, Class aClass) {

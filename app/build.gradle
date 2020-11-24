@@ -44,4 +44,7 @@ dependencies {
     //rounded imgview
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
+    //vista panoramica
+    implementation 'co.gofynd.library:gravity-view:1.0'
+
 }

@@ -31,7 +31,7 @@ public class Hotel extends AppCompatActivity {
         Inicio.redirectActivity(this,Loma.class);
     }
     public void ClickLaguna(View view){
-        Inicio.redirectActivity(this,Laguna.class);
+        Inicio.redireccionApompal(this, Laguna.class);
     }
     public  void ClickComida(View view){
         Inicio.redirectActivity(this,Comida.class);
